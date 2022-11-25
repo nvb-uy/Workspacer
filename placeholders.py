@@ -9,5 +9,5 @@ License = "$$MOD_LICENSE";
 
 # Workspace
 class group:
-    fabric = author+"."+name+"-"+"fabric";
-    forge = author+"."+name+"-"+"forge";
+    fabric = author+"."+name+"."+"fabric";
+    forge = author+"."+name+"."+"forge";
