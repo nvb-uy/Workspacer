@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[37,)" 
-license="AGNYA License"
+license="$$MOD_LICENSE"
 
 [[mods]] 
 modId="$$MOD_ID" 
