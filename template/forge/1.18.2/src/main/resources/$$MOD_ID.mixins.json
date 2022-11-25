@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "$$MOD_AUTHOR.$$MOD_ID.forge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "$$MOD_ID.refmap.json",
+  "mixins": [
+    "MyMixin"
+  ],
+  "client": [
+  ],
+  "minVersion": "0.8"
+}

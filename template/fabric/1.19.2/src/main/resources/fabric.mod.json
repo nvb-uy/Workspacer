@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "$$MOD_ID",
+  "version": "1.0.0",
+
+  "name": "$$MOD_NAME",
+  "description": "$$MOD_DESCRIPTION",
+  "authors": [
+    "ElocinDev"
+  ],
+  "contact": {
+    "homepage": "$$MOD_URL",
+    "sources": "$$MOD_SOURCE"
+  },
+
+  "license": "$$MOD_LICENSE",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "$$MOD_AUHOR.$$MOD_NAME.fabric.$$MOD_NAME"
+    ]
+  },
+  "mixins": [
+    "$$MOD_NAME.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "java": ">=17"
+  }
+}

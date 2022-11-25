@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "$$MOD_AUTHOR.$$MOD_NAME.fabric.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

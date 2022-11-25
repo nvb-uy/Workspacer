@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[37,)" 
+license="AGNYA License"
+
+[[mods]] 
+modId="$$MOD_ID" 
+version="${file.jarVersion}" 
+displayName="$$MOD_NAME" 
+logoFile="logo.png" 
+credits="$$MOD_URL" 
+authors="$$MOD_AUTHOR" 
+description='''
+$$MOD_DESCRIPTION
+'''
+[[dependencies.$$MOD_ID]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[37,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.$$MOD_ID]]
+    modId="minecraft" 
+    mandatory=true 
+    versionRange="[1.18.2,)" 
+    ordering="NONE"
+    side="BOTH"
